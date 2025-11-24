@@ -73,13 +73,22 @@ Upload an image → the model predicts the car's make & model from the 196 class
 
 📁 Repository Structure
 ├── data/                 # Dataset (images + labels)
+
 ├── notebooks/            # Training & evaluation notebooks
+
 ├── src/
 │   ├── dataset.py        # Preprocessing & augmentation
+
 │   ├── model.py          # CNN / Transfer Learning model
+
 │   ├── train.py          # Training script
+
 │   ├── evaluate.py       # Model evaluation
+
 │   └── predict.py        # Inference script
+
 ├── saved_models/         # Trained weights
+
 ├── results/              # Graphs, confusion matrix, logs
+
 └── README.md             # Project documentation
